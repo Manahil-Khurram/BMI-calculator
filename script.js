@@ -1,15 +1,15 @@
 // Gets user input for height and weight in centimeter
-var centimeters = prompt("Enter height in centimeters");
+var centimeters = prompt("Enter height in inches");
 var pounds = prompt("Enter weight in pounds");
 //changing height in inches and weight in kilos
 var height=centimeters *2.54;
 var weight=pounds*0.45;
 //output on screen for height 
-console.log("height in inches");
-console.log(height+"inches"); 
+console.log("height in centimeters");
+console.log(height+"centimeters"); 
 //output on screen for weight
 console.log("weight in kilos");
-console.log(weight+"pounds"); 
+console.log(weight+"kilo"); 
 
 //formula for BMI calculation
     var result = (weight / ((height * height) 
